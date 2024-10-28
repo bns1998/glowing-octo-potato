@@ -1,0 +1,25 @@
+<table>
+    <thead>
+        <tr>
+            <th>رقم الطلب</th>
+            <th>السعر الكلي</th>
+            <th>سعر التوصيل</th>
+            <th>السعر بدون توصيل</th>
+            <th>الإجراء</th> <!-- عمود جديد للإجراء -->
+        </tr>
+    </thead>
+    <tbody id="ordersTableBody">
+    </tbody>
+    <tfoot>
+        <tr class="total-row">
+            <td colspan="3">المجموع النهائي للسعر بدون توصيل:</td>
+            <td id="totalPriceWithoutDelivery">0</td>
+            <td></td> <!-- خلية فارغة للعمود الجديد -->
+        </tr>
+        <tr class="total-row">
+            <td colspan="3">المجموع النهائي للسعر مع التوصيل:</td>
+            <td id="totalPriceWithDelivery">0</td>
+            <td></td> <!-- خلية فارغة للعمود الجديد -->
+        </tr>
+    </tfoot>
+</table>
